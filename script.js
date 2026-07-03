@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // URL de votre backend Render — remplacez par votre URL après déploiement.
 // Ex : 'https://portfolio-chat-backend.onrender.com'
-const BACKEND_URL = 'https://portfolio-chat-backend-5d93.onrender.com';
+const BACKEND_URL = 'https://YOUR_BACKEND.onrender.com';
 
 // Ping le backend au chargement pour le réveiller (Render free tier spin-down)
 async function wakeBackend() {
