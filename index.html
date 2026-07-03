@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500;1,9..144,600&family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -76,7 +77,7 @@
         résultat en temps réel et puissent agir avant qu'une panne ne survienne.
       </p>
       <ul>
-        <li><b>Autoencodeur</b> pour la détection d'anomalies, anticipant les dérives d'équipements à partir de données vibratoires industrielles.</li>
+        <li>Comparaison des approches de réduction dimensionnelle (PCA, KPCA, <b>autoencodeur</b>) — choix de l'autoencodeur neuronal pour la détection d'anomalies, anticipant les dérives d'équipements à partir de données vibratoires industrielles.</li>
         <li>Pipeline Python optimisé pour le temps réel : temps de traitement ramené à <b>3,57 ms par cycle</b>.</li>
         <li>Interface web <b>React / Next.js</b> pour visualiser en direct les indicateurs de santé machine et aider les équipes opérationnelles à décider.</li>
       </ul>
@@ -203,10 +204,16 @@
         <div class="card-top"><div class="card-title">Pac-Man intelligent multi-joueur</div></div>
         <div class="card-desc">Jeu multi-joueur en TCP/IP avec refactoring complet (DAO, Factory, Stratégie) et agent intelligent en <b style="color:var(--ink)">Q-Learning</b> : +60% de performance face à une stratégie aléatoire grâce à une politique ε-greedy sur états discrets.</div>
         <div class="stack"><span class="chip">Java EE</span><span class="chip">Design Patterns</span><span class="chip">Q-Learning</span></div>
-        <a class="repo-link" href="https://github.com/asmegnou/PacmanProgReseauWebAvanc-" target="_blank" rel="noopener">
-          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
-          github.com/asmegnou/PacmanProgReseauWebAvanc-
-        </a>
+        <div class="repo-links-stack">
+          <a class="repo-link" href="https://github.com/asmegnou/PacmanProgReseauWebAvanc-" target="_blank" rel="noopener">
+            <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+            PacmanProgReseauWebAvanc- <span style="color:var(--ink-faint); margin-left:4px">Java EE · Réseau</span>
+          </a>
+          <a class="repo-link" href="https://github.com/asmegnou/Qlearning-Pacman" target="_blank" rel="noopener">
+            <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+            Qlearning-Pacman <span style="color:var(--ink-faint); margin-left:4px">Agent Q-Learning</span>
+          </a>
+        </div>
       </div>
 
       <div class="card">
@@ -237,10 +244,61 @@
   <section id="competences" class="reveal">
     <div class="section-head"><span class="section-num">03</span><span class="section-title">Compétences</span><span class="section-line"></span></div>
     <div class="skill-grid reveal-stagger">
-      <div><div class="skill-group-title" style="--dot:#FF5B3C">ML / IA</div><div class="skill-chips"><span class="skill-chip">Détection d'anomalies</span><span class="skill-chip">Autoencodeurs</span><span class="skill-chip">PCA / KPCA</span><span class="skill-chip">Q-Learning</span><span class="skill-chip">CNN</span><span class="skill-chip">scikit-learn</span><span class="skill-chip">PyTorch</span><span class="skill-chip">TensorFlow</span></div></div>
-      <div><div class="skill-group-title" style="--dot:#4B3AFF">Web & logiciel</div><div class="skill-chips"><span class="skill-chip">JavaScript</span><span class="skill-chip">React</span><span class="skill-chip">Next.js</span><span class="skill-chip">PHP</span><span class="skill-chip">Symfony</span></div></div>
-      <div><div class="skill-group-title" style="--dot:#00A99D">Langages</div><div class="skill-chips"><span class="skill-chip">Python</span><span class="skill-chip">Java</span><span class="skill-chip">Kotlin</span><span class="skill-chip">C++</span><span class="skill-chip">Bash</span></div></div>
-      <div><div class="skill-group-title" style="--dot:#FF5B3C">QA / Outils</div><div class="skill-chips"><span class="skill-chip">Git</span><span class="skill-chip">Docker</span><span class="skill-chip">CI/CD</span><span class="skill-chip">SonarQube</span><span class="skill-chip">Postman</span><span class="skill-chip">PostgreSQL</span><span class="skill-chip">BigQuery</span></div></div>
+      <div>
+        <div class="skill-group-title" style="--dot:#FF5B3C">QA / Tests</div>
+        <div class="skill-chips">
+          <span class="skill-chip">Tests fonctionnels</span>
+          <span class="skill-chip">Tests de non-régression</span>
+          <span class="skill-chip">Tests API</span>
+          <span class="skill-chip"><i class="devicon-postman-plain colored"></i>Postman</span>
+          <span class="skill-chip">SonarQube</span>
+          <span class="skill-chip">CI/CD</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-title" style="--dot:#4B3AFF">ML / IA</div>
+        <div class="skill-chips">
+          <span class="skill-chip">Détection d'anomalies</span>
+          <span class="skill-chip">Autoencodeurs</span>
+          <span class="skill-chip">PCA / KPCA</span>
+          <span class="skill-chip">Q-Learning</span>
+          <span class="skill-chip">CNN</span>
+          <span class="skill-chip">scikit-learn</span>
+          <span class="skill-chip"><i class="devicon-pytorch-original colored"></i>PyTorch</span>
+          <span class="skill-chip"><i class="devicon-tensorflow-original colored"></i>TensorFlow</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-title" style="--dot:#00A99D">Langages</div>
+        <div class="skill-chips">
+          <span class="skill-chip"><i class="devicon-python-plain colored"></i>Python</span>
+          <span class="skill-chip"><i class="devicon-java-plain colored"></i>Java</span>
+          <span class="skill-chip"><i class="devicon-kotlin-plain colored"></i>Kotlin</span>
+          <span class="skill-chip"><i class="devicon-cplusplus-plain colored"></i>C++</span>
+          <span class="skill-chip"><i class="devicon-javascript-plain colored"></i>JavaScript</span>
+          <span class="skill-chip"><i class="devicon-bash-plain"></i>Bash</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-title" style="--dot:#FF5B3C">Outils</div>
+        <div class="skill-chips">
+          <span class="skill-chip"><i class="devicon-git-plain colored"></i>Git</span>
+          <span class="skill-chip"><i class="devicon-docker-plain colored"></i>Docker</span>
+          <span class="skill-chip"><i class="devicon-postgresql-plain colored"></i>PostgreSQL</span>
+          <span class="skill-chip">BigQuery</span>
+          <span class="skill-chip"><i class="devicon-vscode-plain colored"></i>VS Code</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-title" style="--dot:#4B3AFF">Web & dev logiciel</div>
+        <div class="skill-chips">
+          <span class="skill-chip"><i class="devicon-react-original colored"></i>React</span>
+          <span class="skill-chip"><i class="devicon-nextjs-original"></i>Next.js</span>
+          <span class="skill-chip"><i class="devicon-php-plain colored"></i>PHP</span>
+          <span class="skill-chip"><i class="devicon-symfony-original colored"></i>Symfony</span>
+          <span class="skill-chip"><i class="devicon-html5-plain colored"></i>HTML / CSS</span>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -265,10 +323,15 @@
           <div class="insta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></div>
           <div><div class="insta-handle">@assiawart</div><div class="insta-sub">Mes dessins sur Instagram</div></div>
         </div>
-        <div class="insta-highlight">
-          <div class="insta-highlight-label">En avant</div>
-          <div class="insta-highlight-title">Zoro — One Piece</div>
-          <div class="insta-highlight-desc">Un de mes dessins préférés, à retrouver sur mon compte Instagram avec le reste de mes illustrations.</div>
+        <div class="insta-embed-wrap">
+          <iframe
+            src="https://www.instagram.com/p/CguahATIdBJ/embed/"
+            width="100%"
+            height="430"
+            frameborder="0"
+            scrolling="no"
+            allowtransparency="true"
+          ></iframe>
         </div>
         <a class="repo-link" href="https://www.instagram.com/assiawart/" target="_blank" rel="noopener">Voir mes dessins ↗</a>
       </div>
