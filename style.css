@@ -118,7 +118,8 @@ a{color:inherit;}
   .skill-group-title{font-family:var(--mono); font-size:11.5px; color:var(--ink); letter-spacing:0.06em; text-transform:uppercase; margin-bottom:12px; display:flex; align-items:center; gap:8px;}
   .skill-group-title::before{content:""; width:9px; height:9px; border-radius:50%; background:var(--dot,var(--coral));}
   .skill-chips{display:flex; flex-wrap:wrap; gap:8px;}
-  .skill-chip{font-size:13px; color:var(--ink-dim); background:var(--bg-soft); border:1px solid var(--line); padding:6px 12px; border-radius:6px;}
+  .skill-chip{font-size:13px; color:var(--ink-dim); background:var(--bg-soft); border:1px solid var(--line); padding:6px 12px; border-radius:6px; display:inline-flex; align-items:center; gap:6px;}
+  .skill-chip i{font-size:15px; flex-shrink:0;}
 
   .edu-row{display:flex; justify-content:space-between; gap:20px; padding:18px 0; border-bottom:1.5px solid var(--line);}
   .edu-row:last-child{border-bottom:none;}
@@ -148,6 +149,9 @@ a{color:inherit;}
   .insta-highlight-label{font-family:var(--mono); font-size:10px; color:var(--coral); letter-spacing:0.06em; text-transform:uppercase; margin-bottom:6px; font-weight:600;}
   .insta-highlight-title{font-family:var(--display); font-size:15px; font-weight:600; margin-bottom:4px;}
   .insta-highlight-desc{color:var(--ink-dim); font-size:13px; line-height:1.6;}
+  .insta-embed-wrap{border-radius:8px; overflow:hidden; line-height:0;}
+  .insta-embed-wrap iframe{display:block; border:none; border-radius:8px;}
+  .repo-links-stack{display:flex; flex-direction:column; gap:8px;}
 
   footer{border-top:1.5px solid var(--ink); background:var(--bg-soft); padding:56px 0 40px; text-align:center;}
   footer .cta{font-family:var(--display); font-size:28px; font-weight:600; margin-bottom:10px;}
